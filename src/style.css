@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Roboto", "Montserrat", sans-serif;
+}
+
+body {
+  @apply bg-neutral-900 text-neutral-100 font-sans antialiased;
+}
